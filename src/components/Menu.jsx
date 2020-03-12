@@ -1,5 +1,5 @@
 import React from "react";
-import { Menu, Popup, List, Button, Image } from "semantic-ui-react";
+import { Menu, Popup, List, Button, Image} from "semantic-ui-react";
 
 const CartComponent = ({ title, id, image, removeFromCart }) => (
   <List selection divided verticalAlign="middle">
@@ -11,13 +11,14 @@ const CartComponent = ({ title, id, image, removeFromCart }) => (
       </List.Content>
       <Image avatar src={image} />
       <List.Content>{title}</List.Content>
+      {/* <List.Content>{mapStateToProps.bind(this, id)} color="red"</List.Content> */}
     </List.Item>
   </List>
 );
 
 const MenuComponent = ({ totalPrice, count, items }) => (
   <Menu>
-    <Menu.Item name="browse">Магазин книг</Menu.Item>
+    <Menu.Item name="browse">CustomShop</Menu.Item>
 
     <Menu.Menu position="right">
       <Menu.Item name="signup">

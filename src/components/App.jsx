@@ -3,7 +3,7 @@ import { Card, Container } from 'semantic-ui-react';
 import axios from 'axios';
 
 import BookCard from '../containers/BookCard';
-import Filter from '../containers/Filter';
+
 import Menu from '../containers/Menu';
 
 class App extends Component {
@@ -16,10 +16,11 @@ class App extends Component {
 
   render() {
     const { books, isReady } = this.props;
+    debugger;
     return (
       <Container>
         <Menu />
-        <Filter />
+     
         <Card.Group itemsPerRow={4}>
           {!isReady
             ? 'Загрузка...'
