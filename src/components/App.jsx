@@ -16,8 +16,7 @@ class App extends Component {
 
   render() {
     const { books, isReady } = this.props;
-    debugger;
-    return (
+      return (
       <Container>
         <Menu />
      

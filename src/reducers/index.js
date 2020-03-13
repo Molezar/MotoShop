@@ -7,5 +7,4 @@ import cart from './cart';
 export default combineReducers({
   books,
   cart,
-  
 });
