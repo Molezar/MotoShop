@@ -20,7 +20,7 @@ const CartComponent = ({ title, id, image, removeFromCart, decrement, increment}
         </Button>
       </List.Content>
           <Image avatar src={image} />
-      s{`(${basketItemsCount[id]})`}
+      {/* s{`(${basketItemsCount[id]})`} */}
       <List.Content>{title}</List.Content>
     </List.Item>
          
