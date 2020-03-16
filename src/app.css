@@ -10,12 +10,13 @@ body {
 
 .popup {
   background-color: #ffff4d;
-  max-width: 400px !important;
+  max-width: 1000px !important;
 }
 
 .card-image {
    height: 350px;
   overflow: hidden;
+  position: relative;
 }
 
 .card-color {
@@ -26,7 +27,11 @@ body {
 }
 
 .card-image img {
-  /* background-color: green !important; */
-  width: 100%;
+    width: 100%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
