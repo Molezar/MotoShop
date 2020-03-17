@@ -5,11 +5,14 @@ import axios from 'axios';
 import BookCard from '../containers/BookCard';
 
 import Menu from '../containers/Menu';
+// import books from './books.json';
+
 
 class App extends Component {
   componentWillMount() {
     const { setBooks } = this.props;
-    axios.get('/books.json').then(({ data }) => {
+    axios.get('/gh-pages/books.json').then(({ data }) => {
+      console.log(data);
       setBooks(data);
     });
   }
