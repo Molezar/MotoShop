@@ -10,8 +10,7 @@ class App extends Component {
   componentWillMount() {
     const { setBooks } = this.props;
     axios.get('/books.json').then(({ data }) => {
-    
-      console.log(data);
+          console.log(data);
       setBooks(data);
     });
   }
