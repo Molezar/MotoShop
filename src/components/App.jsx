@@ -9,7 +9,12 @@ import Menu from '../containers/Menu';
 class App extends Component {
   componentWillMount() {
     const { setBooks } = this.props;
+<<<<<<< HEAD
     axios.get('/books.json').then(({ data }) => {
+=======
+    axios.get('/gh-pages/books.json').then(({ data }) => {
+      console.log(data);
+>>>>>>> parent of 054f8ab... herznaet
       setBooks(data);
     });
   }
