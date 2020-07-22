@@ -9,7 +9,7 @@ import Menu from '../containers/Menu';
 class App extends Component {
   componentWillMount() {
     const { setBooks } = this.props;
-    axios.get('/books.json').then(({ data }) => {
+    axios.get('/MotoShop/books.json').then(({ data }) => {
           console.log(data);
       setBooks(data);
     });
