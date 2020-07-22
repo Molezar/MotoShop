@@ -1,7 +1,7 @@
 [
   {
     "id": 0,
-    "title": "Best Custom Ever",
+    "title": "Black Stallion",
     "author": "BMW R100RT",
     "image": "https://picua.org/images/2020/03/07/5230d2fdc4a2e028901ef035dc2b4817.md.jpg",
     "price": 7100,
@@ -9,10 +9,26 @@
   },
   {
     "id": 1,
-    "title": "Russian BMW Custom",
-    "author": "BMWK75RT",
-    "image": "/img/bmwrus.jpg",
+    "title": "Hookie Co",
+    "author": "BMW R nineT",
+    "image": "https://picua.org/images/2020/03/07/6d952347b18d0ec2a69668ef9a29e415.md.jpg",
     "price": 9150,
+    "rating": 5
+  },
+  {
+    "id": 2,
+    "title": "Brat Style",
+    "author": "Honda CX500",
+    "image": "https://picua.org/images/2020/07/23/c46af5b1bf70063e0ab9fbbadc8e9650.md.jpg",
+    "price": 7852,
+    "rating": 5
+  },
+  {
+    "id": 3,
+    "title": "NCT",
+    "author": "Harley Davidson Street 750",
+    "image": "https://picua.org/images/2020/07/23/237d9a4041c6a27a64f0b0c02cfadca3.md.jpg",
+    "price": 10500,
     "rating": 5
   }
 ]
